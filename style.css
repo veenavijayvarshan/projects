@@ -1,0 +1,230 @@
+/**************************/
+/* HEADER */
+/**************************/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(
+    to right bottom,
+    #092b2c,
+    #0a3132,
+    #0c3739,
+    #0d3d3f,
+    #255052,
+    #3d6465,
+    #567779,
+    #6e8b8c
+  );
+  /* background-image: linear-gradient(
+      145deg,
+      rgb(5, 97, 80),
+      rgb(130, 176, 169),
+      rgb(230, 240, 239) 33%
+    ),
+    linear-gradient(
+      127deg,
+      rgb(5, 97, 80),
+      rgb(130, 176, 169),
+      rgb(230, 240, 239) 34%
+    ),
+    linear-gradient(
+      145deg,
+      rgb(5, 97, 80),
+      rgb(130, 176, 169),
+      rgb(230, 240, 239) 33%
+    ); */
+
+  /* Because we want header to be sticky later */
+  height: 9.6rem;
+  padding: 0 4.8rem;
+}
+/**************************/
+/* LOGO */
+/**************************/
+
+.logo {
+  height: 4.2rem;
+}
+
+.logo-heading:link,
+.logo-heading:visited {
+  display: flex;
+  text-decoration: none;
+  color: #e7ecec;
+  font-size: 2rem;
+  font-weight: 500;
+  text-decoration: none;
+
+  align-items: center;
+  gap: 1rem;
+}
+.logo-heading:hover,
+.logo-heading:active {
+  color: #509085;
+}
+
+/**************************/
+/* NAVIGATION */
+/**************************/
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4.8rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #e7ecec;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #509085;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 40px;
+  color: #fff;
+  background-color: transparent;
+  box-shadow: 0 0 0 1px #fff;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background-color: #509085;
+}
+/**************************/
+/* HERO SECTION */
+/**************************/
+
+.section-hero {
+  background-color: #0d3d3f;
+  padding: 9.6rem 0;
+  background-image: linear-gradient(#0d3d3f 68%, white 32%);
+}
+.hero {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 4.8rem;
+}
+
+.hero-description {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #6e8b8c;
+  padding: 0 9.6rem;
+  margin-bottom: 4.8rem;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 9.6rem;
+}
+
+/**************************/
+/* Accomplishment*/
+/**************************/
+.accomplishment {
+  padding: 0 3.2rem 4.8rem 3.2rem;
+}
+.accomplishment-number {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+
+.accomplishment-text {
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.6;
+  letter-spacing: -0.3px;
+  opacity: 60%;
+}
+/**************************/
+/* SERVICE SECTION*/
+/**************************/
+
+.section-services {
+  padding: 9.6rem 0;
+}
+
+.text {
+  font-size: 2.4rem;
+  letter-spacing: 0.5px;
+  line-height: 1.6;
+  opacity: 60%;
+}
+/**************************/
+/* FEATURE SECTION*/
+/**************************/
+.feature {
+  /* background-color: rgb(250, 246, 246); */
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.05);
+  padding: 3.2rem;
+  cursor: pointer;
+  text-align: center;
+}
+.feature:hover {
+  background-color: #f5f0f0;
+}
+.feature-icon {
+  color: #010a3f;
+  height: 3.2rem;
+  width: 3.2rem;
+  background-color: rgb(247, 247, 244);
+  margin-bottom: 3.2rem;
+  padding: 1.6rem;
+  border-radius: 50%;
+  fill: #e67e22;
+}
+
+.feature-title {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+
+.feature-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+/**************************/
+/* Steps SECTION*/
+/**************************/
+.section-steps {
+  padding: 9.6rem 0;
+  background-color: #0d3d3f;
+}
+
+.cta-img-box {
+  background-image: url("../img/man-explain2.jpg");
+  background-size: cover;
+}
+.services {
+  padding: 3.2rem;
+}
+/**************************/
+/*SECTION-PRODUCT*/
+/**************************/
+.section-product {
+  padding: 9.6rem 0;
+}
